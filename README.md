@@ -50,7 +50,7 @@ Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 ```
 
 ## IslandIs.Skjalaveita.Api
-**.\IslandIs.Skjalaveita.Api\bin\Release\netcoreapp3.1\appsettings.json**\
+**.\IslandIs.Skjalaveita.Api\bin\Debug\netcoreapp3.1\appsettings.json**\
 
 **Audience:** Þjónustan hjá Skjalaveitu (sjá https://tools.ietf.org/html/rfc7519#section-4.1.3)  
 **Scope:** Stilling á aðgangsheimild (sjá https://tools.ietf.org/html/rfc6749#section-3.3)
@@ -74,18 +74,18 @@ Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 
 Til að keyra skeljarforritið er eftirfarandi skipun keyrð:
 ```
-.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI
+.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Debug\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI
 ```
 Forritið skilar tilbaka hvaða stikar (e. arguments) þurfa að vera settir.\
 T.d. ef sækja á flokka þá er eftirfarandi skipun keyrð (rofinn /c settur).
 ```
-.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI /c
+.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Debug\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI /c
 ```
 ## IslandIs.Skjalaveita.Api
 
 Ef það á að keyra upp vefþjóninn (API) þá er eftirfarandi skipun keyrð:
 ```
-.\IslandIs.Skjalaveita.Api\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.Api
+.\IslandIs.Skjalaveita.Api\bin\Debug\netcoreapp3.1\IslandIs.Skjalaveita.Api
 ```
 Aðgerðin keyrir upp sjálfstæðan vefþjón.\
 Hægt er að skoða OpenAPI skilgreiningu fyrir þjónustuna með því að opna eftirfarandi slóð í vafra:
