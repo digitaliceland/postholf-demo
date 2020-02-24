@@ -13,12 +13,12 @@ Sýningardæmið er skrifað í ASP.NET Core 3.1
 
 Kóði er sóttur með git clone:
 
-git clone https://github.com/XXXXXXX.git
+git clone https://github.com/digitaliceland/postholf-demo.git
 
-Farið inn í möppuna IslandIs.Skjalaveita.Demo og keyrið dotnet build til að byggja bæði verkefnin (project).
+Farið inn í möppuna .\postholf-demo\src\IslandIs.Skjalaveita.Demo og keyrið dotnet build til að byggja bæði verkefnin (project).
 
-cd IslandIs.Skjalaveita.Demo
-dotnet build -c Release
+cd .\postholf-demo\src\IslandIs.Skjalaveita.Demo
+dotnet build
 
 # Stillingar
 
