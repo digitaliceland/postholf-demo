@@ -26,7 +26,7 @@ Stillingar eru settar í skránna appsettings.json undir hvoru verkefni.
 Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 
 ## IslandIs.Skjalaveita.DocumentindexCLI
-**.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Debug\netcoreapp3.1\appsettings.json**\
+**.\IslandIs.Skjalaveita.DocumentindexCLI\bin\Debug\netcoreapp3.1\appsettings.json**
 
 **SenderKennitala:** Kennitala stofnunnar sem er að senda skjal.\
 **SenderName:** Nafn stofnunnar\
@@ -50,7 +50,7 @@ Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 ```
 
 ## IslandIs.Skjalaveita.Api
-**.\IslandIs.Skjalaveita.Api\bin\Debug\netcoreapp3.1\appsettings.json**\
+**.\IslandIs.Skjalaveita.Api\bin\Debug\netcoreapp3.1\appsettings.json**
 
 **Audience:** Þjónustan hjá Skjalaveitu (sjá https://tools.ietf.org/html/rfc7519#section-4.1.3)  
 **Scope:** Stilling á aðgangsheimild (sjá https://tools.ietf.org/html/rfc6749#section-3.3)
