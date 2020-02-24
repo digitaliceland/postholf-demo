@@ -12,14 +12,14 @@ Sýningardæmið er skrifað í ASP.NET Core 3.1
 Það þarf að vera með git uppsett til þess að sækja kóðann.
 
 Kóði er sóttur með git clone:
-
+```
 git clone https://github.com/digitaliceland/postholf-demo.git
-
+```
 Farið inn í möppuna .\postholf-demo\src\IslandIs.Skjalaveita.Demo og keyrið dotnet build til að byggja bæði verkefnin (project).
-
+```
 cd .\postholf-demo\src\IslandIs.Skjalaveita.Demo
 dotnet build
-
+```
 # Stillingar
 
 Það þarf að stilla bæði vefþjónustuna og skeljarforritið með aðgangsupplýsingum.
@@ -47,7 +47,6 @@ ClientSecret: Aðgangsorð biðlara
     "ClientSecret": "<<ClientSecret>>"
   }
 }
-
 ```
 
 ## IslandIs.Skjalaveita.Api
@@ -73,25 +72,25 @@ Scope: Stilling á aðgangsheimild (sjá https://tools.ietf.org/html/rfc6749#sec
 ## IslandIs.Skjalaveita.DocumentindexCLI
 
 Til að keyra skeljarforritið er eftirfarandi skipun keyrð:
-
+```
 .\IslandIs.Skjalaveita.DocumentindexCLI\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI
-
+```
 Forritið skilar tilbaka hvaða stikar (e. arguments) þurfa að vera settir.
 T.d. ef sækja á flokka þá er eftirfarandi skipun keyrð (rofinn /c settur).
-
+```
 .\IslandIs.Skjalaveita.DocumentindexCLI\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.DocumentindexCLI /c
-
+```
 ## IslandIs.Skjalaveita.Api
 
 Ef það á að keyra upp vefþjóninn (API) þá er eftirfarandi skipun keyrð:
-
+```
 .\IslandIs.Skjalaveita.Api\bin\Release\netcoreapp3.1\IslandIs.Skjalaveita.Api
-
+```
 Aðgerðin keyrir upp sjálfstæðan vefþjón. 
 Hægt er að skoða OpenAPI skilgreiningu fyrir þjónustuna með því að opna eftirfarandi slóð í vafra:
-
+```
 https://localhost:5001/swagger/index.html
-
+```
 
 # Tilvísanir
 
