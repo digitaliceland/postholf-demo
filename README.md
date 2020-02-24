@@ -36,8 +36,8 @@ Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 ```javascript
 {
   "ConsoleApplicationSettings": {
-    "SenderKennitala": "<<ProviderKennitala>>",
-    "SenderName": "<<ProviderName>>"
+    "SenderKennitala": "<<SenderKennitala>>",
+    "SenderName": "<<SenderName>>"
   },
   "DocumentindexServiceSettings": {
     "BaseUrl": "https://test-skjalatilkynning-island-is.azurewebsites.net/api/v1/documentindexes/",
@@ -52,7 +52,7 @@ Notendur geta fengið aðgangsupplýsingar hjá Stafrænu Íslandi.
 ## IslandIs.Skjalaveita.Api
 **.\IslandIs.Skjalaveita.Api\bin\Release\netcoreapp3.1\appsettings.json**\
 
-**Audience:** Þjónustan hjá Skjalaveitu (sjá https://tools.ietf.org/html/rfc7519#section-4.1.3)\
+**Audience:** Þjónustan hjá Skjalaveitu (sjá https://tools.ietf.org/html/rfc7519#section-4.1.3)  
 **Scope:** Stilling á aðgangsheimild (sjá https://tools.ietf.org/html/rfc6749#section-3.3)
 
 ```javascript
