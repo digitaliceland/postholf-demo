@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 
 namespace IslandIs.Skjalaveita.Api.Controllers
 {
-    [Route("api/v1/customer")]
+    [Route("api/v1/customers")]
     public class DocumentsController : Controller
     {
         private readonly IDocumentService _documentService;
